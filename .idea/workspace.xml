@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca84980-a832-44c3-8bb8-44fcfe483177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AssignmentOnKt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Movie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseString.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Employment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyInterface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Numtype.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AssignmentOnKt/GetInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AssignmentOnKt/GetInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AssignmentOnKt/META-INF/AssignmentOnKt.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AssignmentOnKt/META-INF/AssignmentOnKt.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AssignmentOnKt/MovieKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AssignmentOnKt/MovieKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AssignmentOnKt/Operators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AssignmentOnKt/Operators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AssignmentOnKt/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AssignmentOnKt/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AssignmentOnKt/ReverseStringKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AssignmentOnKt/ReverseStringKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Movie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operators.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseString.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -35,6 +39,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,15 +53,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ReverseStringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.PersonKt">
+    <configuration name="EmploymentKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AssignmentOnKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ReverseStringKt" />
+      <option name="MAIN_CLASS_NAME" value="EmploymentKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentOnKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MovieKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyInterfaceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentOnKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MyInterfaceKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentOnKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentOnKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="PersonKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,7 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ReverseStringKt" />
+        <item itemvalue="Kotlin.PersonKt" />
+        <item itemvalue="Kotlin.OperatorsKt" />
+        <item itemvalue="Kotlin.MyInterfaceKt" />
+        <item itemvalue="Kotlin.MovieKt" />
+        <item itemvalue="Kotlin.EmploymentKt" />
       </list>
     </recent_temporary>
   </component>
@@ -86,10 +147,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Employment.kt</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
